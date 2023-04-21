@@ -12,6 +12,41 @@
       <h1>Adresse-form med bynavn ud fra postnummer</h1>
     </header>
 
+    <section class="form_container">
+      <form action="" id="form">
+        <fieldset>
+          <legend>Form</legend>
+
+          <div class="grid_box">
+            <label for="name">Navn <input type="text" id="name" /> </label>
+          </div>
+
+          <div class="grid_box">
+            <label for="street">Gade/vej <input type="text" id="street" /></label>
+          </div>
+
+          <div class="grid_box">
+            <label for="postal_number">Postnummer <input type="text" id="postal_number" /></label>
+            <label for="city">By <input type="text" id="city" readonly /></label>
+          </div>
+
+          <div>
+            <label for="co">Evt. C/O adresse (frivilligt)<input type="text" id="co" /> </label>
+          </div>
+
+          <div>
+            <label for="telephone"> Telefonnummer (frivilligt)<input type="number" id="telephone" /> </label>
+          </div>
+
+          <div>
+            <label for="email">E-mail<input type="email" id="email" /></label>
+          </div>
+
+          <input type="submit" id="submit" />
+        </fieldset>
+      </form>
+    </section>
+
     <script src="excercise1.js"></script>
   </body>
 </html>
