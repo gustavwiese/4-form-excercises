@@ -1,3 +1,7 @@
+body {
+  background-color: rgba(89, 245, 248, 0.505);
+}
+
 .form_container {
   margin: 40px auto 0 auto;
   padding: 0;
@@ -8,6 +12,11 @@
   width: 500px;
 }
 
-body{
-    background-color: rgba(89, 245, 248, 0.505);
+.rgb_grid {
+  display: grid;
+  grid-template-columns: 1fr 3fr 3fr;
+}
+#rgb_block {
+  background-color: rgb(3, 5, 90);
+  margin: 4px;
 }
