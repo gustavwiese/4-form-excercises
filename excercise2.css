@@ -1,0 +1,13 @@
+.form_container {
+  margin: 40px auto 0 auto;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 25px;
+  width: 500px;
+}
+
+body{
+    background-color: rgba(89, 245, 248, 0.505);
+}

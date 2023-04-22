@@ -1,2 +1,7 @@
-"use strict"
+"use strict";
 
+window.addEventListener("load", start);
+
+function start() {
+  console.log("Hej");
+}
